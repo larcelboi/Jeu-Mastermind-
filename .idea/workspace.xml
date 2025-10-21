@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c5a5f5d7-1f2f-4616-b97c-e7c825c139e6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/css/site_css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/script/site1_scrip1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site/site1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/site_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site_css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/site1_scrip1.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/site1_scrip1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/site1.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/site1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,9 +27,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "larcelboi"
+  }
 }]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/larcelboi/Jeu-Mastermind-.git",
+    "accountId": "d00d2ec0-833f-4e0c-aff0-341c6bec9bbc"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="34NaiSSXXZC4CXwewoPk0edGENu" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -40,11 +53,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.site1.html.executor": "Run",
+    "JavaScript Debug.site1.html.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.site1_scrip1.js.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -58,6 +73,20 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\info1\WebstormProjects\untitled1\site" />
     </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.site1.html">
+    <configuration name="site1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Jeu-Mastermind-/site/site1.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="site1_scrip1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/script/site1_scrip1.js" working-dir="$PROJECT_DIR$/script">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.site1.html" />
+        <item itemvalue="Node.js.site1_scrip1.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -74,10 +103,23 @@
       <option name="presentableId" value="Default" />
       <updated>1761056609325</updated>
       <workItem from="1761056610363" duration="1027000" />
+      <workItem from="1761066256866" duration="6622000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/script/site1_scrip1.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
