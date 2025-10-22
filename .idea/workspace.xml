@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5a5f5d7-1f2f-4616-b97c-e7c825c139e6" name="Changes" comment="t">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/site_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/site_css.css" afterDir="false" />
+    <list default="true" id="c5a5f5d7-1f2f-4616-b97c-e7c825c139e6" name="Changes" comment="a">
       <change beforePath="$PROJECT_DIR$/script/site1_scrip1.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/site1_scrip1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/site1.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/site1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +106,7 @@
       <workItem from="1761056610363" duration="1027000" />
       <workItem from="1761066256866" duration="6622000" />
       <workItem from="1761158402815" duration="3469000" />
-      <workItem from="1761166110590" duration="8058000" />
+      <workItem from="1761166110590" duration="8356000" />
     </task>
     <task id="LOCAL-00001" summary="type sh">
       <option name="closed" value="true" />
@@ -127,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761162372849</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="a">
+      <option name="closed" value="true" />
+      <created>1761174453459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1761174453459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,7 +141,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="type sh" />
     <MESSAGE value="t" />
-    <option name="LAST_COMMIT_MESSAGE" value="t" />
+    <MESSAGE value="a" />
+    <option name="LAST_COMMIT_MESSAGE" value="a" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

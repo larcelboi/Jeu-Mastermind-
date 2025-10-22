@@ -125,12 +125,11 @@ boutonCouleur.forEach(function (boutonCercle,index) {
 
     //Activer lorsque tu click un boutton
     boutonCercle.addEventListener('click', function () {
-        boutonCercle.style.opacity = 0.5;
+        boutonCercle.style.opacity = 0.1;
         setTimeout(function () {
-            boutonCercle.style.opacity = 1;
             DonnerCouleurCercle(boutonCercle)
         }
-            ,50)
+            ,200)
     })
 });
 
@@ -159,6 +158,8 @@ btnValider.addEventListener("click", function () {
             element.style.border = "3px solid yellow"
         }
     })
+    boutonCouleur.forEach(function (boutonCercle,index) {
+        boutonCercle.style.opacity = 1;})
     btnValider.style.opacity = 0.5;
     valider = false
     PasserLigner();
@@ -169,6 +170,8 @@ btnNouvellePartie.addEventListener("click", function () {
         leCadre.style.border = "3px dashed white"
         leCadre.firstChild.style.backgroundColor = ""
     })
+    boutonCouleur.forEach(function (boutonCercle,index) {
+        boutonCercle.style.opacity = 1;})
     liste_couleur_choisi.length = 0;
     liste_ligne_passer.length = 0;
     chaque_ligne_list.length = 0;
