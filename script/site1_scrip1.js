@@ -26,11 +26,15 @@ chaque_ligne_list.forEach((leCadre) => {
 })
 let positionDansListe = 0
 function DonnerCouleurCercle(cercle){
+    if (positionDansListe === 4){
+        return;
+    }
     const LeCadre  = chaque_ligne_list[positionDansListe]
     const cercleInvisible = LeCadre.firstChild
     if (cercleInvisible.style.backgroundColor === "") {
         cercleInvisible.style.backgroundColor = cercle.style.backgroundColor ;
         }
+
     positionDansListe++
 }
 
@@ -61,7 +65,7 @@ boutonCouleur.forEach(function (boutonCercle,index) {
             boutonCercle.style.opacity = 1;
             DonnerCouleurCercle(boutonCercle)
         }
-            ,1000)
+            ,500)
     })
 });
 
