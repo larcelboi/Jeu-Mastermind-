@@ -183,6 +183,7 @@ btnValider.addEventListener("click", function () {
     boutonCouleur.forEach(function (boutonCercle,index) {
         boutonCercle.style.opacity = 1;})
     valider = false
+    btnValider.style.opacity = 0.5;
     PasserLigner();
 })
 
