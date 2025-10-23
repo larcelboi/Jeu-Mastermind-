@@ -9,7 +9,7 @@ let valider = false
 const liste_couleur_choisi = []
 let positionDansListe = 0
 btnValider.style.opacity = 0.5;
-
+let indexEffacerCouleur = 0
 
 const liste_couleur = ['red',
     'blue',
@@ -85,6 +85,9 @@ function PasserLigner(){
             }
         }
     }
+    indexEffacerCouleur = chaque_ligne_list.length;
+    console.log(indexEffacerCouleur);
+
 }
 PasserLigner();
 
@@ -125,6 +128,14 @@ boutonCouleur.forEach(function (boutonCercle,index) {
 
     //Activer lorsque tu click un boutton
     boutonCercle.addEventListener('click', function () {
+        if (parseFloat(boutonCercle.style.opacity) === 0.1){
+            return;
+        }
+        const cadre = chaque_ligne_list[chaque_ligne_list.length - 1]
+        const cercle = cadre.firstChild
+        if (!(cercle.style.backgroundColor === "")){
+            return;
+        }
         boutonCercle.style.opacity = 0.1;
         setTimeout(function () {
             DonnerCouleurCercle(boutonCercle)
@@ -134,12 +145,23 @@ boutonCouleur.forEach(function (boutonCercle,index) {
 });
 
 btnEffacer.addEventListener("click", function () {
-    chaque_ligne_list.forEach(function (leCadre) {
-        const cercleInvisible = leCadre.firstChild
-        if (!(cercleInvisible.style.backgroundColor === "")) {
-            cercleInvisible.style.backgroundColor = "";
+    for (let  i = chaque_ligne_list.length   ; i > 0; i--) {
+        const cadre = chaque_ligne_list[i - 1]
+        const cercle = cadre.firstChild
+
+        if(!(cercle.style.backgroundColor === "")) {
+            boutonCouleur.forEach(function (BoutonCercle) {
+                if (BoutonCercle.style.backgroundColor === cercle.style.backgroundColor) {
+                    BoutonCercle.style.opacity = 1;
+                }
+            })
+            positionDansListe--;
+            cercle.style.backgroundColor = "";
+            btnValider.style.opacity = 0.5;
+            valider = false
+            break;
         }
-    })
+    }
 })
 btnValider.addEventListener("click", function () {
     if(!(valider)){
@@ -160,7 +182,6 @@ btnValider.addEventListener("click", function () {
     })
     boutonCouleur.forEach(function (boutonCercle,index) {
         boutonCercle.style.opacity = 1;})
-    btnValider.style.opacity = 0.5;
     valider = false
     PasserLigner();
 })
