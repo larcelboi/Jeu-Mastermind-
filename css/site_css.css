@@ -6,15 +6,15 @@ body{
 }
 /*Les boites*/
 .BoiteD{
-    height: 710px;
+    height: 745px;
     width: 350px;
     border: 1px solid white;
     border-radius: 10px;
     margin:10px;
 }
 .BoiteGauche{
-    height: 710px;
-    width: 425px;
+    height: 745px;
+    width: 435px;
     border: 1px solid white;
     border-radius: 10px;
     margin:10px;
@@ -33,11 +33,11 @@ body{
 
 }
 .BoxWithOneCercle{
-    background-color: lightgray;
+    background-color: rosybrown;
     height: 40px;
     width: 80px;
     border-radius: 10px;
-    border: 3px dashed white;
+    border: 4px dashed white;
     margin: 10px;
     display: flex;
     align-items: center;

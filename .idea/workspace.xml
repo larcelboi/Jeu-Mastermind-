@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5a5f5d7-1f2f-4616-b97c-e7c825c139e6" name="Changes" comment="asdasd">
+    <list default="true" id="c5a5f5d7-1f2f-4616-b97c-e7c825c139e6" name="Changes" comment="sadas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/site1_scrip1.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/site1_scrip1.js" afterDir="false" />
     </list>
@@ -51,7 +51,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.site1.html.executor": "Debug",
+    "JavaScript Debug.site1.html.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Node.js.site1_scrip1.js.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -107,7 +107,8 @@
       <workItem from="1761056610363" duration="1027000" />
       <workItem from="1761066256866" duration="6622000" />
       <workItem from="1761158402815" duration="3469000" />
-      <workItem from="1761166110590" duration="14715000" />
+      <workItem from="1761166110590" duration="15178000" />
+      <workItem from="1761189462169" duration="338000" />
     </task>
     <task id="LOCAL-00001" summary="type sh">
       <option name="closed" value="true" />
@@ -141,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761174696402</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="sadas">
+      <option name="closed" value="true" />
+      <created>1761188895924</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1761188895924</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,7 +161,8 @@
     <MESSAGE value="t" />
     <MESSAGE value="a" />
     <MESSAGE value="asdasd" />
-    <option name="LAST_COMMIT_MESSAGE" value="asdasd" />
+    <MESSAGE value="sadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="sadas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -160,7 +170,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/script/site1_scrip1.js</url>
           <line>165</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>

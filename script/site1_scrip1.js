@@ -93,7 +93,7 @@ PasserLigner();
 
 function BackgroundBlue(){
     chaque_ligne_list.forEach((leCadre) => {
-        leCadre.style.border = "3px solid blue";
+        leCadre.style.border = "4px solid blue";
     })
 }
 BackgroundBlue();
@@ -174,10 +174,10 @@ btnValider.addEventListener("click", function () {
         const count = liste_couleur_choisi.filter(element => element === cercle.style.backgroundColor).length;
 
         if (cercle.style.backgroundColor === liste_couleur_choisi[index]) {
-            element.style.border = "3px solid lightgreen"
+            element.style.border = "4px solid lightgreen"
         }
         else if(count === 1){
-            element.style.border = "3px solid yellow"
+            element.style.border = "4px solid yellow"
         }
     })
     boutonCouleur.forEach(function (boutonCercle,index) {
